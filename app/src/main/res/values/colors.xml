@@ -6,6 +6,11 @@
     <color name="colorPrimaryDark">#7d7d7d</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="colorTextPrimary">#7d7d7d</color>
+    <color name="colorTextSecondary">#FF4081</color>
+
+
+
     <!-- Secondary theme colors -->
     <color name="tealDark">#0094DE</color>
     <color name="tealLight">#9FDAF7</color>
