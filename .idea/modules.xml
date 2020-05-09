@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GymFitPeru.iml" filepath="$PROJECT_DIR$/GymFitPeru.iml" group="GymFitPeru" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GymFitPeru/app" />
+      <module fileurl="file://$PROJECT_DIR$/GymFitUPC.iml" filepath="$PROJECT_DIR$/GymFitUPC.iml" group="GymFitUPC" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GymFitUPC/app" />
     </modules>
   </component>
 </project>
