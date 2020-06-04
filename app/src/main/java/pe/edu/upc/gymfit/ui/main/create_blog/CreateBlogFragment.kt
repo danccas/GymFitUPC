@@ -108,8 +108,9 @@ constructor(
         })
 
         viewModel.stateMessage.observe(viewLifecycleOwner, Observer { stateMessage ->
-
             stateMessage?.let {
+                Log.d("TAG", "DEMOOOOOOOOOOOOOOOO")
+                Log.d("TAG", it.response.toString())
                 if (it.response.message.equals(SUCCESS_BLOG_CREATED)) {
                     viewModel.clearNewBlogFields()
                 }

@@ -54,6 +54,7 @@ constructor(
 
                     // If they don't have a paid membership account it will still return a 200
                     // Need to account for that
+
                     if (!resultObj.response.equals(RESPONSE_MUST_BECOME_CODINGWITHMITCH_MEMBER)) {
                         val updatedBlogPost = resultObj.toBlogPost()
                         blogPostDao.insert(updatedBlogPost)
