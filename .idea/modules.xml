@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NUEVAPPGYMFIT.iml" filepath="$PROJECT_DIR$/NUEVAPPGYMFIT.iml" group="NUEVAPPGYMFIT" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="NUEVAPPGYMFIT/app" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-GymFitUPC.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-GymFitUPC.iml" group="GymFitUPC" />
+      <module fileurl="file://$PROJECT_DIR$/GymFitUPC.iml" filepath="$PROJECT_DIR$/GymFitUPC.iml" group="GymFitUPC" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GymFitUPC/app" />
     </modules>
   </component>
 </project>
