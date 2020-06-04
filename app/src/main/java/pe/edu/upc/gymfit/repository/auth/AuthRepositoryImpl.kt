@@ -150,6 +150,7 @@ constructor(
                     stateEvent = stateEvent
                 ){
                     override suspend fun handleSuccess(resultObj: RegistrationResponse): DataState<AuthViewState> {
+                        Log.d("TAG", "RESPUESTA!!!!!!!!!!!");
                             if(resultObj.response.equals(GENERIC_AUTH_ERROR)){
                             return DataState.error(
                                 response = Response(
