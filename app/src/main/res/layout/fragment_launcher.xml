@@ -29,7 +29,7 @@
         <ImageView
                 android:id="@+id/app_logo"
                 android:layout_width="0dp"
-                android:layout_height="200"
+                android:layout_height="200dp"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
