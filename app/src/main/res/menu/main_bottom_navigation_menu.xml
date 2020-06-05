@@ -3,11 +3,11 @@
 
 
     <item android:id="@+id/menu_nav_blog"
-          android:title="@string/home"
+          android:title="@string/principal"
     android:icon="@drawable/ic_home_white_24dp"/>
 
     <item android:id="@+id/menu_nav_create_blog"
-          android:title="@string/create"
+          android:title="@string/create_gym"
           android:icon="@drawable/ic_add_circle_outline_white_24dp"
     />
 
