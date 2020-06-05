@@ -25,62 +25,58 @@
                 android:id="@+id/focusable_view">
         </View>
 
+
         <ImageView
-                android:layout_width="0dp"
-                android:layout_height="200dp"
                 android:id="@+id/app_logo"
-                android:src="@drawable/logo_01"
+                android:layout_width="0dp"
+                android:layout_height="200"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/login"
-                app:layout_constraintVertical_chainStyle="packed"
-                app:layout_constraintVertical_bias=".4"
-                />
+                app:layout_constraintVertical_chainStyle="packed" />
 
 
         <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/app_logo"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/register"
-                android:textSize="25sp"
-                android:textColor="#000"
-                android:text="@string/text_login"
                 android:id="@+id/login"
-                android:layout_marginTop="30dp"
-                />
-
-        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/login"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/forgot_password"
+                android:text="@string/text_login"
+                android:textColor="#E8FF00"
                 android:textSize="25sp"
-                android:textColor="#000"
-                android:text="@string/text_register"
-                android:id="@+id/register"
-                android:layout_marginTop="30dp"
-                />
-
-
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/register"
+                app:layout_constraintBottom_toTopOf="@+id/register"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:textSize="16sp"
-                android:textColor="@color/link_blue"
-                android:text="@string/text_forgot_password"
+                app:layout_constraintTop_toBottomOf="@+id/app_logo" />
+
+        <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="@string/text_register"
+                android:textColor="#FFD600"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@+id/forgot_password"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/login" />
+
+        <TextView
                 android:id="@+id/forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                />
+                android:text="@string/text_forgot_password"
+                android:textColor="#070202"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/register" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
