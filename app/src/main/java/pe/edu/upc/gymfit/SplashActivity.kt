@@ -19,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
     private val introSlideAdapter = IntroSliderAdapter(
         listOf(
             IntroSlide(
-                "Fuerza y Motivo",
+                "Fuerza y Motivo x2",
                 "Tener fuerza de voluntad y mucha energia para nuestro gimnasio.",
                 R.drawable.img01
             ),
