@@ -3,23 +3,23 @@
 
     <!-- Intent extras -->
     <string name="auth_token">auth_token</string>
-    <string name="password_reset_info">We\'ve emailed you instructions for setting your password. If an account exists
-        with the email you entered.
-        You should receive them shortly.If you don\'t receive an email, please make sure you\'ve entered the address you
-        registered with,
-        and check your spam folder.
+    <string name="password_reset_info">Le\'hemos enviado por correo electrónico instrucciones para configurar su contraseña. Si existe una cuenta
+        con el correo electrónico que ingresaste.
+        Debería recibirlos en breve. Si no recibe\' un correo electrónico, \'asegúrese de haber ingresado la dirección
+        registrado con,
+        y revisa tu carpeta de spam.
     </string>
-    <string name="password_reset_email_sent">Password reset email sent</string>
+    <string name="password_reset_email_sent">Correo electrónico de restablecimiento de contraseña enviadot</string>
     <string name="return_to_launcher_fragment">Return</string>
     <string name="text_error">Error</string>
     <string name="text_success">Success</string>
     <string name="text_ok">OK</string>
     <string name="text_cancel">Cancel</string>
-    <string name="email_field">Email</string>
-    <string name="field_password">Password</string>
+    <string name="email_field">Correo Electronico</string>
+    <string name="field_password">Contraseña</string>
     <string name="field_login">Login</string>
-    <string name="field_username">Username</string>
-    <string name="field_confirm_password">Confirm password</string>
+    <string name="field_username">Usuario</string>
+    <string name="field_confirm_password">Confirm Contraseña</string>
     <string name="field_register">Register</string>
     <string name="network_error_response">Error</string>
     <string name="account">Perfil</string>
@@ -42,16 +42,16 @@
     <string name="arg_username">arg_username</string>
     <string name="enter_a_username">Enter a username</string>
     <string name="enter_your_email">Enter your email</string>
-    <string name="current_password">Current password</string>
-    <string name="confirm_new_password">Confirm new password</string>
-    <string name="new_password">New password</string>
-    <string name="change_password">Change password</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="confirm_new_password">Confirma Contraseña Nueva</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="change_password">Cambia la contraseña</string>
     <string name="your_email">Your email</string>
     <string name="your_username">Your username</string>
     <string name="register">Register</string>
     <string name="search">Search</string>
     <string name="filter">Filter</string>
-    <string name="update_password">Update password</string>
+    <string name="update_password">Actualiza contraseña</string>
     <string name="filter_asc">ASC</string>
     <string name="filter_desc">DESC</string>
     <string name="filter_author">Distancia</string>
@@ -75,9 +75,9 @@
     <string name="forgot_password">Forgot Password</string>
     <string name="launcher">Launcher</string>
     <string name="login">Login</string>
-    <string name="text_login">Login</string>
-    <string name="text_register">Register</string>
-    <string name="text_forgot_password">Forgot password</string>
+    <string name="text_login">Iniciar sesión</string>
+    <string name="text_register">Registrarse</string>
+    <string name="text_forgot_password">Se te olvidó tu contraseña</string>
     <string name="process_death_state">process_death_state</string>
     <string name="invalid_login_credentials">Invalid login</string>
 
