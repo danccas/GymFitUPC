@@ -54,11 +54,11 @@
     <string name="update_password">Update password</string>
     <string name="filter_asc">ASC</string>
     <string name="filter_desc">DESC</string>
-    <string name="filter_author">Author</string>
-    <string name="filter_date">Date</string>
-    <string name="asc_desc">Ascending or descending order</string>
-    <string name="author_or_date">Filter by author or date</string>
-    <string name="filter_options">Filter options</string>
+    <string name="filter_author">Distancia</string>
+    <string name="filter_date">Gimnasio</string>
+    <string name="asc_desc">Ordenar Asc o Desc</string>
+    <string name="author_or_date">Filtrado por</string>
+    <string name="filter_options">Opciones</string>
     <string name="publish">Publish</string>
     <string name="are_you_sure">Are you sure?</string>
     <string name="text_yes">yes</string>
