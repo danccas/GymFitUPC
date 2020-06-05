@@ -23,13 +23,6 @@ import pe.edu.upc.gymfit.util.BottomNavController.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.parcel.Parcelize
 
-/**
- * Class credit: Allan Veloso
- * I took the concept from Allan Veloso and made alterations to fit our needs.
- * https://stackoverflow.com/questions/50577356/android-jetpack-navigation-bottomnavigationview-with-youtube-or-instagram-like#_=_
- * @property navigationBackStack: Backstack for the bottom navigation
- */
-
 const val BOTTOM_NAV_BACKSTACK_KEY = "pe.edu.upc.gymfit.util.BottomNavController.bottom_nav_backstack"
 
 class BottomNavController(

@@ -10,14 +10,6 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 
-/**
- * Data class for saving authentication token locally for open-api.xyz
- * NOTES:
- * 1) local 'auth_token' table has foreign key relationship to 'account_properties' table through 'account' field (PK)
- *
- * Docs: https://open-api.xyz/api/
- */
-
 const val AUTH_TOKEN_BUNDLE_KEY = "pe.edu.upc.gymfit.models.AuthToken"
 
 @Entity(
