@@ -9,24 +9,24 @@
         registered with,
         and check your spam folder.
     </string>
-    <string name="password_reset_email_sent">Password reset email sent</string>
-    <string name="return_to_launcher_fragment">Return</string>
+    <string name="password_reset_email_sent">Correo electrónico de restablecimiento de contraseña enviado</string>
+    <string name="return_to_launcher_fragment">Regreso</string>
     <string name="text_error">Error</string>
-    <string name="text_success">Success</string>
-    <string name="text_ok">OK</string>
+    <string name="text_success">Éxito</string>
+    <string name="text_ok">Ok</string>
     <string name="text_cancel">Cancel</string>
-    <string name="email_field">Email</string>
-    <string name="field_password">Password</string>
-    <string name="field_login">Login</string>
-    <string name="field_username">Username</string>
-    <string name="field_confirm_password">Confirm password</string>
-    <string name="field_register">Register</string>
+    <string name="email_field">Correo Electronico</string>
+    <string name="field_password">Contraseña</string>
+    <string name="field_login">Iniciar Sesion</string
+    <string name="field_username">Nombre de Usuario</string>
+    <string name="field_confirm_password">Confirmar Contraseña</string>
+    <string name="field_register">Registrar</string>
     <string name="network_error_response">Error</string>
-    <string name="account">Account</string>
-    <string name="logout">Logout</string>
-    <string name="mis_sedes">My Blogs</string>
-    <string name="home">Home</string>
-    <string name="create">Create</string>
+    <string name="account">Cuenta</string>
+    <string name="logout">Cerrar Sesion</string>
+    <string name="mis_sedes">Mis Sedes</string>
+    <string name="home">Principal</string>
+    <string name="create">Crear</string>
     <string name="skip_intro">Saltar</string>
     <string name="next">Siguiente</string>
 
