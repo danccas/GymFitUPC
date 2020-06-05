@@ -22,11 +22,11 @@
     <string name="field_confirm_password">Confirm password</string>
     <string name="field_register">Register</string>
     <string name="network_error_response">Error</string>
-    <string name="account">Account</string>
+    <string name="account">Perfil</string>
     <string name="logout">Logout</string>
     <string name="mis_sedes">Mis Sedes</string>
-    <string name="home">Home</string>
-    <string name="create">Create</string>
+    <string name="principal">Principal</string>
+    <string name="create_gym">Nuevo Gimnasio</string>
     <string name="skip_intro">Saltar</string>
     <string name="next">Siguiente</string>
 
