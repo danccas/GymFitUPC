@@ -9,6 +9,7 @@ import pe.edu.upc.gymfit.fragments.main.blog.BlogFragmentFactory
 import pe.edu.upc.gymfit.fragments.main.create_blog.CreateBlogFragmentFactory
 import dagger.Module
 import dagger.Provides
+import pe.edu.upc.gymfit.fragments.main.bot.ChatBotFragmentFactory
 import javax.inject.Named
 
 @Module
@@ -51,6 +52,20 @@ object MainFragmentsModule {
         requestManager: RequestManager
     ): FragmentFactory {
         return CreateBlogFragmentFactory(
+            viewModelFactory,
+            requestManager
+        )
+    }
+
+    @JvmStatic
+    @MainScope
+    @Provides
+    @Named("ChatBotFragmentFactory")
+    fun provideChatBotFragmentFactory(
+        viewModelFactory: ViewModelProvider.Factory,
+        requestManager: RequestManager
+    ): FragmentFactory {
+        return ChatBotFragmentFactory(
             viewModelFactory,
             requestManager
         )

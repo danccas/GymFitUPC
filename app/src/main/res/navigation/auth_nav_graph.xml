@@ -47,6 +47,12 @@
             tools:layout="@layout/fragment_forgot_password" />
 
     <fragment
+            android:id="@+id/chatBotFragment"
+            android:name="pe.edu.upc.gymfit.ui.bot.ChatBotFragment"
+            android:label="fragment_forgot_password"
+            tools:layout="@layout/fragment_chatbot" />
+
+    <fragment
             android:id="@+id/loginFragment"
             android:name="pe.edu.upc.gymfit.ui.auth.LoginFragment"
             android:label="fragment_login"

@@ -6,14 +6,11 @@ import android.content.Context
 import android.os.Parcelable
 import android.util.Log
 import androidx.annotation.IdRes
-import androidx.annotation.NavigationRes
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.FragmentFactory
 import androidx.fragment.app.FragmentManager
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import pe.edu.upc.gymfit.R
 import pe.edu.upc.gymfit.fragments.main.account.AccountNavHostFragment
@@ -22,6 +19,8 @@ import pe.edu.upc.gymfit.fragments.main.create_blog.CreateBlogNavHostFragment
 import pe.edu.upc.gymfit.util.BottomNavController.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.parcel.Parcelize
+import pe.edu.upc.gymfit.fragments.main.bot.ChatBotNavHostFragment
+import pe.edu.upc.gymfit.ui.bot.ChatBotFragment
 
 /**
  * Class credit: Allan Veloso
@@ -99,6 +98,10 @@ class BottomNavController(
 
             R.id.menu_nav_create_blog -> {
                 CreateBlogNavHostFragment.create(R.navigation.nav_create_blog)
+            }
+
+            R.id.menu_nav_bot -> {
+                ChatBotNavHostFragment.create(R.navigation.nav_chatbot)
             }
 
             else -> {

@@ -55,6 +55,10 @@ class MainActivity : BaseActivity(),
     @Named("CreateBlogFragmentFactory")
     lateinit var createBlogFragmentFactory: FragmentFactory
 
+    @Inject
+    @Named("ChatBotFragmentFactory")
+    lateinit var chatBotFragmentFactory: FragmentFactory
+
     private lateinit var bottomNavigationView: BottomNavigationView
 
     private val bottomNavController by lazy(LazyThreadSafetyMode.NONE) {

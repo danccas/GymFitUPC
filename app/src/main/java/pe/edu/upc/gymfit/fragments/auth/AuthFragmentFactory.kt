@@ -3,10 +3,8 @@ package pe.edu.upc.gymfit.fragments.auth
 import androidx.fragment.app.FragmentFactory
 import androidx.lifecycle.ViewModelProvider
 import pe.edu.upc.gymfit.di.auth.AuthScope
-import pe.edu.upc.gymfit.ui.auth.ForgotPasswordFragment
-import pe.edu.upc.gymfit.ui.auth.LauncherFragment
-import pe.edu.upc.gymfit.ui.auth.LoginFragment
-import pe.edu.upc.gymfit.ui.auth.RegisterFragment
+import pe.edu.upc.gymfit.ui.auth.*
+import pe.edu.upc.gymfit.ui.bot.ChatBotFragment
 import javax.inject.Inject
 
 @AuthScope
