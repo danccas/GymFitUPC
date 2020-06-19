@@ -15,5 +15,9 @@
           android:title="@string/account"
           android:icon="@drawable/ic_account_circle_white_24dp"/>
 
+    <item android:id="@+id/maps"
+            android:title="@string/maps"
+            android:icon="@drawable/ic_account_circle_white_24dp"/>
+
 
 </menu>
