@@ -96,10 +96,6 @@ class BottomNavController(
                 BlogNavHostFragment.create(R.navigation.nav_blog)
             }
 
-            R.id.menu_nav_create_blog -> {
-                CreateBlogNavHostFragment.create(R.navigation.nav_create_blog)
-            }
-
             R.id.menu_nav_bot -> {
                 ChatBotNavHostFragment.create(R.navigation.nav_chatbot)
             }
